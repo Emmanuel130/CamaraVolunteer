@@ -3,7 +3,7 @@
 
 > Simple Web Page For Introduction.
 
-Provides a quick and easy way to create a website to showcase your name, country of origin and projects!
+ongoing volunteer application form web site for ['Camara Education Ethiopia'](https://camara.org) 
 
 Go to [This Page](https://emmanuel130.github.io/CamaraVolunteer/) to see demo ðŸ™‚.
 
@@ -11,10 +11,10 @@ Go to [This Page](https://emmanuel130.github.io/CamaraVolunteer/) to see demo ðŸ
 
 I built this project primarily to understand how to implement a small and simple website (microservices), and serverless deployment.
 
-Also, I believe this is a cute way to show where you are from or where you built your project, so yeah.
+Also, We believe this is a cute way to show where you are from or where you built your project, so yeah.
 
 ## License
 
-Copyright (c) Alphanum404. All rights reserved.
+Copyright (c) Emmanuel130. All rights reserved.
 
 Licensed under the [MIT](LICENSE) License.
