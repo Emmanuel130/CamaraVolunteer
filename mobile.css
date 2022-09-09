@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: url("images/mona-eendra-fIoQ-aRycys-unsplash.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+
+  overflow: hidden;
+}
+.container {
+  width: 60%;
+  text-align: center;
+  height: 98%;
+  margin: 2.5% auto;
+  background: rgb(239, 233, 232);
+  border-radius: 5px;
+  position: relative;
+  overflow-x: hidden;
+  box-shadow: 10px 0 60px 0 rgb(221, 191, 191);
+}
+.h3-headers {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #777;
+  /* background-color: blue;*/
+  margin-bottom: 30px;
+  padding: 20px 73px;
+}
+h4 {
+  font-size: 17px;
+  color: #777;
+  margin-bottom: 5px;
+}
+.container form {
+  width: 95%;
+  left: 2.5%;
+  right: 2.5%;
+  position: absolute;
+  top: 50px;
+}
+form .inp1 {
+  width: 80%;
+  padding: 10px 5px;
+  margin: 3px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.btn-box {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+form button {
+  width: 110px;
+  font-style: italic;
+  color: whitesmoke;
+  background: linear-gradient(to right, rgb(174, 215, 170), rgb(66, 197, 15));
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  cursor: pointer;
+}
+.gender-age {
+  font-size: 18px;
+  color: rgb(92, 90, 90);
+}
+#personal-info {
+  position: relative;
+}
+.specific-skill {
+  font-size: 18px;
+  text-align: center;
+  display: grid;
+  padding: 0px;
+  width: 60%;
+  margin: 0 20% 0 20%;
+}
+.break-div {
+  float: left;
+  width: 40%;
+  margin: 1% 1% 1% 4%;
+  text-align: left;
+}
+.break-div2 {
+  text-align: left;
+
+  width: 40%;
+  margin: 1% 4% 1% 1%;
+  float: right;
+}
+
+.reasons-break {
+  text-align: left;
+  margin-left: 100px;
+  float: left;
+  width: 40%;
+}
+.reasons-break2 {
+  text-align: left;
+  margin-right: 75px;
+  float: right;
+  width: 30%;
+}
+
+.card {
+  display: none;
+}
+.card.active {
+  display: block;
+}
+
+.step-row {
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 -1px 5px -1px #000;
+  position: relative;
+}
+.step-col {
+  width: 500px;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+.file-upload {
+  margin: 20px;
+}
+#progress {
+  position: absolute;
+  height: 100%;
+  width: 800px;
+  background: linear-gradient(to right, rgb(158, 208, 154), rgb(66, 197, 15));
+}
+#progress::after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  border-left: 20px solid rgb(66, 197, 15);
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+  .card {
+    display: grid;
+  }
+  .h3-headers {
+    font-size: 18px;
+    padding: 5px 5px;
+    color: #777;
+    margin: 2px;
+  }
+  h3 {
+    margin: 15px 0 5px 0;
+  }
+  h4 {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 0 30px;
+  }
+  .step-row {
+    display: none;
+  }
+  .btn-box {
+    display: none;
+  }
+  .gender-age {
+    font-size: 16px;
+  }
+  form button {
+    width: 90px;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .more-info {
+    margin: 10px 0;
+  }
+  .specific-skill {
+    font-size: 16px;
+  }
+  .reasons-fr-vol {
+    font-size: 16px;
+  }
+  .reasons-break {
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+  }
+  .reasons-break2 {
+    margin-top: 10px;
+    width: 29%;
+  }
+  .lbls {
+    width: 95%;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  .inp1new {
+    font-size: 16px;
+  }
+  .file-upload {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .container {
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(239, 233, 232);
+    overflow: scroll;
+  }
+  .card {
+    display: grid;
+  }
+  .h3-headers {
+    font-size: 15px;
+    padding: 5px 5px;
+    color: #777;
+    margin: 2px;
+  }
+  h3 {
+    margin: 15px 0 5px 0;
+  }
+  h4 {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 0 30px;
+  }
+  .step-row {
+    display: none;
+  }
+  .form .inp1 {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 13px;
+    background: transparent;
+  }
+  .btn-box {
+    display: none;
+  }
+  .gender-age {
+    font-size: 12px;
+    margin: 13px 0 13px 0;
+  }
+  form button {
+    width: 60px;
+    background: linear-gradient(to right, rgb(174, 215, 170), rgb(66, 197, 15));
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  /*.specific-skill {
+    padding: 0 30px;
+  }*/
+  .more-info {
+    margin: 10px 0;
+  }
+  /*
+  .skills-check {
+    display: initial;
+  }
+  .break-div {
+    font-size: 12px;
+    width: 50%;
+    float: left;
+    padding: 5%;
+    text-align: left;
+  }
+  .break-div2 {
+    font-size: 12px;
+    width: 40%;
+    float: right;
+    padding: 1%;
+    text-align: left;
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+  } */
+  .specific-skill {
+    font-size: 12px;
+    text-align: center;
+    display: grid;
+    padding: 0px;
+    width: 60%;
+    margin: 0 20% 0 20%;
+  }
+  .break-div {
+    float: left;
+    width: 40%;
+    margin: 1% 1% 1% 4%;
+    text-align: left;
+  }
+  .break-div2 {
+    text-align: left;
+
+    width: 40%;
+    margin: 1% 4% 1% 1%;
+    float: right;
+  }
+  .reasons-fr-vol {
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+  }
+  .reasons {
+    text-align: center;
+    width: 100%;
+  }
+  .reasons-break {
+    float: left;
+    width: 30%;
+    margin: 0 0 0 10%;
+    padding: 0 0 0 5%;
+    text-align: left;
+  }
+  .reasons-break2 {
+    width: 30%;
+    float: right;
+    margin: 0 15% 0 0;
+    text-align: left;
+  }
+  .inp1new {
+    margin: 10px;
+  }
+  .file-upload {
+    margin: 20px;
+  }
+}
