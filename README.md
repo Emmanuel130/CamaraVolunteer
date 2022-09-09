@@ -1,5 +1,5 @@
 
-# Made with ❤️ by [`Emmanuel130, oscar-8`](github.com/Emmanuel130, github.com/Oscar-8)
+# Made with ❤️ by [`Emmanuel130`](github.com/Emmanuel130)
 
 > Simple Web Page For Introduction.
 
