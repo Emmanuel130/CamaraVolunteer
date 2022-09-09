@@ -3,7 +3,7 @@
 
 > Simple Web Page For Introduction.
 
-ongoing volunteer application form web site for [Camara Education Ethiopia](https://camara.org) 
+ongoing volunteer application form Web Page for [Camara Education Ethiopia](https://camara.org) 
 
 Go to [This Page](https://emmanuel130.github.io/CamaraVolunteer/) to see demo 🙂.
 
