@@ -1,7 +1,5 @@
 
-# Made with ❤️ by [`Emmanuel130`](github.com/Emmanuel130)
-
-[`Oscarj-8`](github.com/Oscarj-8)
+# Made with ❤️ by [`Emmanuel130`](github.com/Emmanuel130) [`Oscarj-8`](github.com/Oscarj-8)
 
 > Simple Web Page For Introduction.
 
