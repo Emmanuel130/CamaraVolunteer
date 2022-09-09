@@ -1,6 +1,8 @@
 
 # Made with ❤️ by [`Emmanuel130`](github.com/Emmanuel130)
 
+[`Oscarj-8`](github.com/Oscarj-8)
+
 > Simple Web Page For Introduction.
 
 Provides a quick and easy way to create a website to showcase your name, country of origin and projects!
