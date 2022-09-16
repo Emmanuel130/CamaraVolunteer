@@ -1,6 +1,6 @@
-# Made by [`Emmanuel130`](github.com/Emmanuel130) ['Oscarj-8'](github.com/Oscarj-8)
+# Made by [`Emmanuel130`](github.com/Emmanuel130) [Oscarj-8](github.com/Oscarj-8)
 
- Ongoing Volunteer application form Web Page For ['Camara Education Ethiopia'](camara.org).
+ Ongoing Volunteer application form Web Page For [Camara Education Ethiopia](camara.org).
 
 Provides a quick and easy way to create a website to showcase your name, country of origin and projects!
 
